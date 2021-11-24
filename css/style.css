@@ -1,0 +1,15 @@
+@import "reset.css";
+
+/**components**/
+@import "components/status-bar.css";
+
+/**screens**/
+
+@import "screens/index.css";
+
+/**font**/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Open+Sans:wght@300;500&display=swap");
+
+body {
+  background-color: #031321;
+}

@@ -1,0 +1,32 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.status-bar__column {
+  display: flex;
+  color: #2196f3;
+  width: 33%;
+  align-items: center;
+
+  text-shadow: 0 0 10px #2196f3, 0 0 15px #2196f3, 0 0 20px #2196f3;
+}
+
+.status-bar__column:nth-child(1) span {
+  margin-right: 10px;
+}
+
+.status-bar__column:nth-child(2) {
+  justify-content: center;
+}
+
+.status-bar__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column:nth-child(3) span {
+  margin: 0 0 0 10px;
+}

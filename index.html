@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-cocoa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>    
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            18:43
+        </div>
+        <div class="status-bar__column">
+            <span><i class="fas fa-lock-open fa-sm"></i></span>
+            <span>11%</span>
+            <span><i class="fas fa-battery-full fa-lg"></i></span>
+        </div>
+    </div>
+
+    <main class="screen-main">
+
+        <div class="welcome-box">
+            <div class="welcome-box__title">
+                <h1>Welcome to <span class="C">Co</span>coa<span class="T">T</span>alk</h1>
+            </div>
+            <div class="welcome-box__text">
+                <h2>If you have a Cocoa Account, <br>log in with your email or phone number</h2>
+            </div>
+        </div>
+
+        <form action="" class="login-form">
+            <div class="login-form__column">
+                <input type="text" autocomplete="off" required id="login-form__column--email">
+                <label for="login-form__column--email" class="login-form__column--email-label">
+                    <span>Email or phone number</span>
+                </label>
+            </div>
+            
+            <div class="login-form__column">
+                <input type="password" autocomplete="off" required id="login-form__column--password">
+                <label for="login-form__column--password" class="login-form__column--password-label">
+                    <span>Password</span>
+                </label>
+            </div>
+            
+            <div class="login-button__column">
+                <button class="login-button__column--btnlogin">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span> Log In </span>
+                </button>
+            </div>
+
+            <div class="login-button__column">
+                <button class="login-button__column--btnsignup">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span> Sign Up </span>
+                </button>
+            </div>
+
+        </form>
+
+         <div class="find-account">
+             <a href="#">Find Cocoa Account or Password</a>
+         </div>
+    </main>
+
+
+    <script
+    src="https://kit.fontawesome.com/e4dbb467f9.js"
+    crossorigin="anonymous"
+   ></script>
+</body>
+</html>
