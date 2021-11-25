@@ -3,10 +3,12 @@
 /**components**/
 @import "components/status-bar.css";
 @import "components/screen-header.css";
+@import "components/screen-chats.css";
 
 /**screens**/
 
 @import "screens/index.css";
+@import "screens/friends.css";
 
 /**font**/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Open+Sans:wght@300;500&display=swap");
