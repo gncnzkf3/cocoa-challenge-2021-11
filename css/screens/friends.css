@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #e1c2ff;
+  color: none;
   background: tomato;
   height: 40px;
-  text-shadow: 0 0 10px #e1c2ff;
-  box-shadow: 0 0 10px tomato, 0 0 20px tomato;
+  text-shadow: none;
+  font-weight: 600;
+  box-shadow: 0 0 10px tomato;
   animation: blinkNeon 2s;
 }
 
@@ -19,9 +20,9 @@
   }
   77% {
     background: inherit;
-    text-shadow: inherit;
+    text-shadow: 0 0 10px #e1c2ff;
     box-shadow: inherit;
-    color: inherit;
+    color: #e1c2ff;
   }
   78% {
     background: #333;
@@ -33,7 +34,7 @@
     background: inherit;
     text-shadow: inherit;
     box-shadow: inherit;
-    color: inherit;
+    color: #e1c2ff;
   }
   80% {
     background: #333;
@@ -46,7 +47,7 @@
     background: inherit;
     text-shadow: inherit;
     box-shadow: inherit;
-    color: inherit;
+    color: #e1c2ff;
   }
 
   85% {
@@ -60,7 +61,7 @@
     background: inherit;
     text-shadow: inherit;
     box-shadow: inherit;
-    color: inherit;
+    color: #e1c2ff;
   }
 
   90% {
@@ -72,7 +73,14 @@
     background: inherit;
     text-shadow: inherit;
     box-shadow: inherit;
-    color: inherit;
+    color: #e1c2ff;
+  }
+
+  100% {
+    background: inherit;
+    text-shadow: inherit;
+    box-shadow: inherit;
+    color: #e1c2ff;
   }
 }
 
