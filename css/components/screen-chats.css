@@ -1,0 +1,45 @@
+.screen-chats {
+  margin: 30px 0;
+}
+
+.screen-chats__column {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.screen-chats__column--profile img {
+  height: 55px;
+  width: 55px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.screen-chats__column--text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+.screen-chats__column--text span:nth-child(1) {
+  text-shadow: 0 0 15px #fff, 0 0 20px #fff;
+}
+
+.screen-chats__column--text span:nth-child(2) {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #c5c3c3;
+  text-shadow: 0 0 15px #c5c3c3;
+}
+
+.screen-chats__column--friends {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

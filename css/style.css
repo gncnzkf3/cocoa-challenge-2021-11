@@ -4,6 +4,7 @@
 @import "components/status-bar.css";
 @import "components/screen-header.css";
 @import "components/screen-chats.css";
+@import "components/nav-bar.css";
 
 /**screens**/
 
@@ -20,8 +21,12 @@ a {
 
 body {
   background-color: #031321;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .screen-main {
   padding: 0 25px;
+  width: 100%;
+  box-sizing: border-box;
 }
